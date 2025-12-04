@@ -1,0 +1,741 @@
+GS.dataCache['394FD6C51BED77480658A8D4D767DCD60552'] = {
+    "uid": "394FD6C51BED77480658A8D4D767DCD60552",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Meet new customer",
+        "type": "vn.scene",
+        "parentId": "546C74F69EF1B84D5D5AF164F8C19BC54014",
+        "chapterUid": "546C74F69EF1B84D5D5AF164F8C19BC54014",
+        "order": 0,
+        "localizableStrings": {
+            "D04D8F0C9E460743D8789761B4B1C0E301BE": {
+                "t": "-New customer has arrived. She is about to greet you in sign language-",
+                "d": {
+                    "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810"
+                }
+            },
+            "5751FF3273F8804DCA79836195EAC414F3BB": {
+                "t": "-sign language-\n(Good morning!)",
+                "d": {
+                    "cid": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "eid": "F429B2D3642EE849389810C65EC0B13228AE"
+                }
+            },
+            "09864DCF0105F6421A5A7841665E75AE5A82": {
+                "t": "-sign language-\n(I would like to get a piece of bread with a cup of coffee)",
+                "d": {
+                    "cid": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "eid": "C3CC9AAB79814346731B4B459E5ABE59B2C3"
+                }
+            },
+            "42911ADC6C822243D989D35032CB578B41C5": {
+                "t": "*Checks stock, realises that you have ran out of bread*",
+                "d": {
+                    "cid": 0,
+                    "eid": "2C5E629175DAF64A795AB243F89473E41556"
+                }
+            },
+            "4268EBCF1B6D854D5D2BCDE3743015060DDD": {
+                "t": "--Sign the word \"CAKE\" to ask them if they would be okay with cake--",
+                "d": {
+                    "cid": 0,
+                    "eid": "2CA519D2408B774E763BA252FCFA56BB28EA"
+                }
+            },
+            "5A9DEFDA1311A84ACE08491176757F87C4E4": {
+                "t": "--Use the ASL chart for aid--",
+                "d": {
+                    "cid": 0,
+                    "eid": "A74665BD36E0F640AC481BB121ADE6E141DD"
+                }
+            },
+            "0476482C89228545AE3B44221B98C71C404C": {
+                "t": "-sign language-\n(Okay, thank you!)",
+                "d": {
+                    "cid": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "eid": "83411AF926C3D344FE89969469337FAB57F4"
+                }
+            }
+        },
+        "commands": [
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "cafe_counter_day",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0
+            },
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "name": "School_-_First_Day",
+                        "volume": "61",
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 0,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 6,
+                    "expressionId": "A40710771FD11445F55A8593FD8DDF3BDC89",
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 32,
+                        "y": 2,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {
+                            "x": 34,
+                            "y": 18,
+                            "zoom": 1.31,
+                            "angle": 0,
+                            "horizontalFlip": false,
+                            "width": 523.93,
+                            "height": 698.17
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 0
+                    },
+                    "previewBackground": {
+                        "name": ""
+                    }
+                },
+                "indent": 0,
+                "uid": "330FEFA8546FC6406D6A2126A432AE6B9D5B"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "D04D8F0C9E460743D8789761B4B1C0E301BE",
+                        "defaultText": "-New customer has arrived. She is about to greet you in sign language-"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Script",
+                "params": {},
+                "indent": 0,
+                "uid": "6D884C752B07E445584BB19352E1889CD6C6",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterChangeExpression",
+                "params": {
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "fading": 0,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "duration": 15,
+                    "waitForCompletion": 1,
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "expressionId": "6CD65CC39ECD7644F639CB45F32542C74150",
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "1A3A0B23225AB942175BC6E73072384DFBB5"
+            },
+            {
+                "id": "vn.CharacterChangeExpression",
+                "params": {
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "fading": 0,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "duration": 15,
+                    "waitForCompletion": 1,
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "expressionId": "B08B31D19584124A207AFF57FF53A88A41CF",
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "0E2388A04E2FE148953BAB4339D58651C81A"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "B625BBB42DE83544A81BF048791453EF599E"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": "F57B38EF6C47D142C86ADBB745747A735C69",
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "5751FF3273F8804DCA79836195EAC414F3BB",
+                        "defaultText": "-sign language-\n(Good morning!)"
+                    },
+                    "position": 0,
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "F429B2D3642EE849389810C65EC0B13228AE",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": "A40710771FD11445F55A8593FD8DDF3BDC89",
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "09864DCF0105F6421A5A7841665E75AE5A82",
+                        "defaultText": "-sign language-\n(I would like to get a piece of bread with a cup of coffee)"
+                    },
+                    "position": 0,
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "C3CC9AAB79814346731B4B459E5ABE59B2C3",
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "41BF6ED31426C247436AD54840EF77624271"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "42911ADC6C822243D989D35032CB578B41C5",
+                        "defaultText": "*Checks stock, realises that you have ran out of bread*"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "2C5E629175DAF64A795AB243F89473E41556",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "4268EBCF1B6D854D5D2BCDE3743015060DDD",
+                        "defaultText": "--Sign the word \"CAKE\" to ask them if they would be okay with cake--"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "2CA519D2408B774E763BA252FCFA56BB28EA",
+                "expanded": true
+            },
+            {
+                "id": "gs.Script",
+                "params": {
+                    "script": "SignDetection.connect(\"CAKE\");\nconsole.log(\"Attempting to connect to sign detection server...\");"
+                },
+                "indent": 0,
+                "uid": "85BFC7025AF7474D5D59184836612E102C2D",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "5A9DEFDA1311A84ACE08491176757F87C4E4",
+                        "defaultText": "--Use the ASL chart for aid--"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "A74665BD36E0F640AC481BB121ADE6E141DD",
+                "expanded": true
+            },
+            {
+                "id": "gs.Script",
+                "params": {
+                    "script": "SignDetection.disconnect();\nSignDetection.hide();"
+                },
+                "indent": 0,
+                "uid": "E6C78EF07188E6417B09C4C2513E9E0F0373",
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "2AB353C78B261745ED393EF1AE57A62169A3"
+            },
+            {
+                "id": "vn.CharacterChangeExpression",
+                "params": {
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "fading": 0,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "duration": 15,
+                    "waitForCompletion": 1,
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "expressionId": "6CD65CC39ECD7644F639CB45F32542C74150",
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "F3A40D326B5A8543C998E9A1A1A11D0622CB"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": "F57B38EF6C47D142C86ADBB745747A735C69",
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "0476482C89228545AE3B44221B98C71C404C",
+                        "defaultText": "-sign language-\n(Okay, thank you!)"
+                    },
+                    "position": 0,
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "83411AF926C3D344FE89969469337FAB57F4",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterChangeExpression",
+                "params": {
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "fading": 0,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "duration": 15,
+                    "waitForCompletion": 1,
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "expressionId": "A40710771FD11445F55A8593FD8DDF3BDC89",
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "17B85A51361CB044A75BA0D1E4AF5E29C5B8"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "FB5574040E1C92465A294E412510FE9967B6"
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "78A4D9E05D468244881A00B5B7BBD538C1E0"
+            },
+            {
+                "id": "gs.StopMusic",
+                "params": {
+                    "layer": 0,
+                    "fadeOutDuration": 0.6,
+                    "fieldFlags": {
+                        "fadeOutDuration": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "21E3E2AA656EC448FE88568436536CCDE602"
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": null,
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "FBD789B572BD5244C599B3C70D141097E7D3"
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 30
+                },
+                "uid": "4EA90BB7009C1240CD4B86470FF70FD01C2F",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "CB9E7A7D8116934DF908F9E4C73503B31FBC",
+                        "name": "Meet fellow staff"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "9720667449E5244B5A7AEFC3643118ECF82F",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}

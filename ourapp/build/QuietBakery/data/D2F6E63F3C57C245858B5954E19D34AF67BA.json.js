@@ -1,0 +1,41 @@
+GS.dataCache['D2F6E63F3C57C245858B5954E19D34AF67BA'] = {
+    "uid": "D2F6E63F3C57C245858B5954E19D34AF67BA",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Crash1",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "D2F6E63F3C57C245858B5954E19D34AF67BA",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Crash1",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "YvonneCrash1",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "D2F6E63F3C57C245858B5954E19D34AF67BA"
+        },
+        "order": 8
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

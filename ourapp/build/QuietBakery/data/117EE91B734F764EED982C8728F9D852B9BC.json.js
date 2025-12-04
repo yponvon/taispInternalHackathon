@@ -1,0 +1,41 @@
+GS.dataCache['117EE91B734F764EED982C8728F9D852B9BC'] = {
+    "uid": "117EE91B734F764EED982C8728F9D852B9BC",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "GoodAfternn1",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "117EE91B734F764EED982C8728F9D852B9BC",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "GoodAfternn1",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "YvonneGoodAfternn1",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "117EE91B734F764EED982C8728F9D852B9BC"
+        },
+        "order": 12
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

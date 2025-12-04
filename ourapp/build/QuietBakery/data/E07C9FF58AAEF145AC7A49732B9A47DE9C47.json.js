@@ -1,0 +1,49 @@
+GS.dataCache['E07C9FF58AAEF145AC7A49732B9A47DE9C47'] = {
+    "uid": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Holly",
+        "type": "data_record",
+        "category": "characters",
+        "id": "E07C9FF58AAEF145AC7A49732B9A47DE9C47",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "0D4DDDAA9C84C64A115A7FC856B20AE5341C": {
+                "t": "",
+                "d": null
+            },
+            "06B4D1AC7F342140EA590A482CF4D869CC2D": {
+                "t": "Holly",
+                "d": null
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "06B4D1AC7F342140EA590A482CF4D869CC2D",
+                "defaultText": "Holly"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "E07C9FF58AAEF145AC7A49732B9A47DE9C47"
+        },
+        "order": 15
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

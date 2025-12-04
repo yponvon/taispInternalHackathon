@@ -1,0 +1,41 @@
+GS.dataCache['E52E79A92237D742F99A3656DF80729B35CB'] = {
+    "uid": "E52E79A92237D742F99A3656DF80729B35CB",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Again2",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "E52E79A92237D742F99A3656DF80729B35CB",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Again2",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "YvonneAgain2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "E52E79A92237D742F99A3656DF80729B35CB"
+        },
+        "order": 7
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

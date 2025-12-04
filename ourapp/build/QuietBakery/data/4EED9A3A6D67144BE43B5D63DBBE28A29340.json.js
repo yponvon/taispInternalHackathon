@@ -1,0 +1,41 @@
+GS.dataCache['4EED9A3A6D67144BE43B5D63DBBE28A29340'] = {
+    "uid": "4EED9A3A6D67144BE43B5D63DBBE28A29340",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "ThankYou2",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "4EED9A3A6D67144BE43B5D63DBBE28A29340",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "ThankYou2",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "yvonne thank you 2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "4EED9A3A6D67144BE43B5D63DBBE28A29340"
+        },
+        "order": 5
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

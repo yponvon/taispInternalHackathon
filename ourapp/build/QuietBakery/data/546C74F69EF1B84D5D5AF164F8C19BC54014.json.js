@@ -1,0 +1,26 @@
+GS.dataCache['546C74F69EF1B84D5D5AF164F8C19BC54014'] = {
+    "uid": "546C74F69EF1B84D5D5AF164F8C19BC54014",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Chapter 2",
+        "type": "vn.chapter",
+        "order": 3,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "Chapter 2",
+                    "description": ""
+                },
+                "indent": 0,
+                "expanded": false
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

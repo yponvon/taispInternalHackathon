@@ -1,0 +1,49 @@
+GS.dataCache['21EF0B251325E94D82695CD3527680407AB2'] = {
+    "uid": "21EF0B251325E94D82695CD3527680407AB2",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Therapy2",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "21EF0B251325E94D82695CD3527680407AB2",
+        "isFolder": false,
+        "parentId": "CC7ADEE18A37E7412D687275B6C7FB18EA0F",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Therapy2",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "HollyTherapy2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "21EF0B251325E94D82695CD3527680407AB2"
+        },
+        "order": 5,
+        "localizableStrings": {
+            "773507FA5EBAB14D0B2BE087F1F6C160A18C": {
+                "t": "-sign language-\n(I would like to get _ _ _ _ _ _ )",
+                "d": {
+                    "cid": "62F9CA120E37F8412C7BAA0447E4F4803B3C"
+                }
+            }
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

@@ -1,0 +1,50 @@
+GS.dataCache['807EA87F24E72441CC4909F1140FCB61789E'] = {
+    "uid": "807EA87F24E72441CC4909F1140FCB61789E",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Hello1",
+        "type": "data_record",
+        "order": 1,
+        "category": "characterExpressions",
+        "id": "807EA87F24E72441CC4909F1140FCB61789E",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0.06,
+                "end": 0.06
+            },
+            "name": "Hello1",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "yvonne hello 1",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 50,
+            "talking": [],
+            "index": "807EA87F24E72441CC4909F1140FCB61789E"
+        },
+        "localizableStrings": {
+            "209744AF322AA44A4F7A3562C7E9E43F028F": {
+                "t": "-sign language-\n(Hello!)",
+                "d": {
+                    "cid": "62F9CA120E37F8412C7BAA0447E4F4803B3C",
+                    "eid": "2103440555902247381AC13725C8EA28A9A5"
+                }
+            }
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

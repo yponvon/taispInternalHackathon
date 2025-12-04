@@ -1,0 +1,41 @@
+GS.dataCache['7826657B2EBA584E8E1A8567038427A0F6E2'] = {
+    "uid": "7826657B2EBA584E8E1A8567038427A0F6E2",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Tap",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "7826657B2EBA584E8E1A8567038427A0F6E2",
+        "isFolder": false,
+        "parentId": "057515C8481A57467359D3C397A0A6EFD00F",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Tap",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "AriqTap",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "7826657B2EBA584E8E1A8567038427A0F6E2"
+        },
+        "order": 7
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

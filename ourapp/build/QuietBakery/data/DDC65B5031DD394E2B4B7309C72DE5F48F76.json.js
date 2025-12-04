@@ -1,0 +1,41 @@
+GS.dataCache['DDC65B5031DD394E2B4B7309C72DE5F48F76'] = {
+    "uid": "DDC65B5031DD394E2B4B7309C72DE5F48F76",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Therapy1",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "DDC65B5031DD394E2B4B7309C72DE5F48F76",
+        "isFolder": false,
+        "parentId": "CC7ADEE18A37E7412D687275B6C7FB18EA0F",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Therapy1",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "HollyTherapy1",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "DDC65B5031DD394E2B4B7309C72DE5F48F76"
+        },
+        "order": 4
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

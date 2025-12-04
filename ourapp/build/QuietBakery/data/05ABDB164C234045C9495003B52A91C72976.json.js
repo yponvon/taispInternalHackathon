@@ -1,0 +1,41 @@
+GS.dataCache['05ABDB164C234045C9495003B52A91C72976'] = {
+    "uid": "05ABDB164C234045C9495003B52A91C72976",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "No1",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "05ABDB164C234045C9495003B52A91C72976",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "No1",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "YvonneNo1",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "05ABDB164C234045C9495003B52A91C72976"
+        },
+        "order": 14
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

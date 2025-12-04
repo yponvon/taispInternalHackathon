@@ -1,0 +1,41 @@
+GS.dataCache['CBB3AFB53056C7481918EB43100BDBFFB303'] = {
+    "uid": "CBB3AFB53056C7481918EB43100BDBFFB303",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Angry",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "CBB3AFB53056C7481918EB43100BDBFFB303",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Angry",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "yvonne angry",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "CBB3AFB53056C7481918EB43100BDBFFB303"
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}
