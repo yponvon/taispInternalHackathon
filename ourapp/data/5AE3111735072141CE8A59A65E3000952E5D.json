@@ -1,0 +1,45 @@
+{
+    "uid": "5AE3111735072141CE8A59A65E3000952E5D",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Game State Handler",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "5AE3111735072141CE8A59A65E3000952E5D",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Game State Handler",
+            "startCondition": 1,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [],
+            "index": "5AE3111735072141CE8A59A65E3000952E5D",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "conditionSwitch": {
+                "name": "In Game",
+                "scope": 1,
+                "index": 0,
+                "changed": true,
+                "domain": "com.degica.vnm.default"
+            }
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "uid": "07EE431B606C434A276B16054B4766578D6E",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Figuring it out",
+        "type": "vn.scene",
+        "parentId": "ADC4B38C592803411958F50834EE7F4EC993",
+        "chapterUid": "ADC4B38C592803411958F50834EE7F4EC993",
+        "order": 0,
+        "livePreviewDisabled": false
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}

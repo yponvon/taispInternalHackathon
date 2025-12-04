@@ -1,0 +1,41 @@
+{
+    "uid": "475E0FB54DF023494E1A0B16A0EA815CF458",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "TapAngry",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "475E0FB54DF023494E1A0B16A0EA815CF458",
+        "isFolder": false,
+        "parentId": "057515C8481A57467359D3C397A0A6EFD00F",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "TapAngry",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "AriqTapAngry",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "475E0FB54DF023494E1A0B16A0EA815CF458"
+        },
+        "order": 5
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "uid": "C4AB50008AD7D940B13B60F81F8D7219FB27",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "No2",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "C4AB50008AD7D940B13B60F81F8D7219FB27",
+        "isFolder": false,
+        "parentId": "9338E6B63C9F06416F39C67830091B998104",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "No2",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "YvonneNo2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "C4AB50008AD7D940B13B60F81F8D7219FB27"
+        },
+        "order": 15
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

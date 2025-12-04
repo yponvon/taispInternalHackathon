@@ -1,0 +1,152 @@
+{
+    "uid": "907DEEFA596C354C2E8943B37F45044D7E91",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "SystemHandler",
+        "type": "vn.scene",
+        "parentId": "96EB6CA99CCFF94DE04917C216F085E8E747",
+        "chapterUid": "0680E2763533F740B54A6C139E537CF59C20",
+        "order": 0,
+        "commands": [
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "MainLoop"
+                },
+                "uid": "2FDAE8D155F9F04E009BE8062FCF9845B901",
+                "indent": 0
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 6
+                },
+                "uid": "C6B1258B52668447555A2211B89585B34E79",
+                "indent": 0
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "scope": 1,
+                        "index": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 1,
+                    "valueType": 1,
+                    "operation": 0
+                },
+                "uid": "7642A3CD8B9BD34D8D798C519E54064DD843",
+                "indent": 0
+            },
+            {
+                "id": "gs.ChangeBooleanVariables",
+                "params": {
+                    "target": 0,
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetRangeScope": 0,
+                    "rangeStart": 0,
+                    "rangeEnd": 0,
+                    "value": 0
+                },
+                "uid": "A93A17487A27E847464A5B78FF7146809406",
+                "indent": 1
+            },
+            {
+                "id": "vn.CallScene",
+                "params": {
+                    "scene": {
+                        "uid": "698CC698902B5441C82AB9D51D756D2E11A5",
+                        "name": "In the cafe"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "99EDF3847071D441379AF2B29A108AEE3437",
+                "indent": 1
+            },
+            {
+                "id": "gs.ConditionElseIf",
+                "params": {
+                    "variable": {
+                        "scope": 1,
+                        "index": 0
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 1,
+                    "operation": 0
+                },
+                "uid": "317D2D7757D4B142C47B5893E6ECCA4C72C0",
+                "indent": 0
+            },
+            {
+                "id": "vn.CallScene",
+                "params": {
+                    "scene": {
+                        "uid": "96EB6CA99CCFF94DE04917C216F085E8E747",
+                        "name": "Title Screen"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "867FAE343D5F32490E3A62C23E01FAD98CF4",
+                "indent": 1
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "MainLoop",
+                    "target": "activeContext"
+                },
+                "uid": "22C89CE74E96D94E115B76F6B7D3051CF782",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}

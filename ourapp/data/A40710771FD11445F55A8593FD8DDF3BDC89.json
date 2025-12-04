@@ -1,0 +1,41 @@
+{
+    "uid": "A40710771FD11445F55A8593FD8DDF3BDC89",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Normal",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "A40710771FD11445F55A8593FD8DDF3BDC89",
+        "isFolder": false,
+        "parentId": "CC7ADEE18A37E7412D687275B6C7FB18EA0F",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Normal",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "HollyIdle",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "A40710771FD11445F55A8593FD8DDF3BDC89"
+        },
+        "order": 3
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}
